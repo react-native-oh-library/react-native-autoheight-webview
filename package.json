@@ -6,8 +6,7 @@
   "types": "index.d.ts",
   "files": [
     "index.js",
-    "index.d.ts",
-    "autoHeightWebView"
+    "index.d.ts"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -33,13 +32,13 @@
   "homepage": "https://github.com/iou90/react-native-autoheight-webview#readme",
   "peerDependencies": {
     "react": ">= 16.8.0",
-    "react-native": ">= 0.60.0"
+    "react-native": ">= 0.60.0",
+    "@react-native-oh-tpl/react-native-webview":">= 13.6.3-0.0.1"
   },
   "dependencies": {
     "deprecated-react-native-prop-types": "^2.3.0",
     "prop-types": "^15.7.2",
-    "react-native-autoheight-webview": "^1.6.5",
-    "react-native-webview-openharmony": "file:react-native-oh-tpl-react-native-webview-13.6.3-0.0.1.tgz"
+    "react-native-autoheight-webview": "^1.6.5"
   },
   "devDependencies": {
     "@react-native-community/eslint-config": "^2.0.0",
