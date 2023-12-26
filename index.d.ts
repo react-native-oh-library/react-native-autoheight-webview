@@ -3,7 +3,7 @@
 // Definitions by: Naveen Ithappu <https://github.com/naveen-ithappu>
 // TypeScript Version: ^4.0.5
 
-import WebView, {WebViewProps} from 'react-native-webview';
+import WebView, {WebViewProps} from '@react-native-oh-tpl/react-native-webview';
 
 import {StyleProp, ViewStyle} from 'react-native';
 

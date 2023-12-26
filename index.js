@@ -1,3 +1,3 @@
-import AutoHeightWebView from 'react-native-autoheight-webview/autoHeightWebView/index';
+import AutoHeightWebView from './autoHeightWebView/index';
 
 export default AutoHeightWebView;

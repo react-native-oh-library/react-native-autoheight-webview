@@ -7,6 +7,7 @@
   "files": [
     "index.js",
     "index.d.ts",
+    "autoHeightWebView",
     "harmony"
   ],
   "scripts": {
@@ -38,8 +39,7 @@
   },
   "dependencies": {
     "deprecated-react-native-prop-types": "^2.3.0",
-    "prop-types": "^15.7.2",
-    "react-native-autoheight-webview": "^1.6.5"
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "@react-native-community/eslint-config": "^2.0.0",
