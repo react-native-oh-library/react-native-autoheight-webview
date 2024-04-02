@@ -112,7 +112,6 @@ AutoHeightWebView.propTypes = {
   onMessage: PropTypes.func,
   scalesPageToFit: PropTypes.bool,
   source: PropTypes.object,
-  nestedScrollEnabled:PropTypes.bool,
 };
 
 let defaultProps = {
@@ -134,7 +133,6 @@ Platform.OS === 'ios' &&
   Platform.OS === 'harmony' &&
   Object.assign(defaultProps, {
     viewportContent: 'width=device-width',
-    nestedScrollEnabled:true,
   });
 
 AutoHeightWebView.defaultProps = defaultProps;
