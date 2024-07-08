@@ -130,6 +130,11 @@ Platform.OS === 'ios' &&
     viewportContent: 'width=device-width',
   });
 
+Platform.OS === 'harmony' &&
+  Object.assign(defaultProps, {
+    viewportContent: 'width=device-width',
+  });
+
 AutoHeightWebView.defaultProps = defaultProps;
 
 const styles = StyleSheet.create({
