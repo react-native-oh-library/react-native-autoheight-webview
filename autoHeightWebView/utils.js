@@ -41,10 +41,11 @@ const updateSizeWithMessage = (element, scalesPageToFit) =>
 
     clearTimeout(checkPostMessageTimeout);
     var result = ${element}.getBoundingClientRect()
-    height = result.height + result.top;
-    if(!height) {
-      height = ${element}.offsetHeight || document.documentElement.offsetHeight
-    }
+    height = ${element}.offsetHeight || document.documentElement.offsetHeight
+    // height = result.height + result.top;
+    // if(!height) {
+    //   height = ${element}.offsetHeight || document.documentElement.offsetHeight
+    // }
     width = result.width;
     if(!width) {
       width = ${element}.offsetWidth || document.documentElement.offsetWidth
