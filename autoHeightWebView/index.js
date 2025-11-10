@@ -5,7 +5,7 @@ import {StyleSheet, Platform} from 'react-native';
 import {ViewPropTypes} from 'deprecated-react-native-prop-types';
 import PropTypes from 'prop-types';
 
-import {WebView} from '@react-native-ohos/react-native-webview';
+import {WebView} from 'react-native-webview';
 
 import {
   topic,
