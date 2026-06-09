@@ -1,4 +1,4 @@
-# @react-native-oh-tpl/react-native-autoheight-webview
+# @react-native-ohos/react-native-autoheight-webview
 
 This project is based on [react-native-autoheight-webview](https://github.com/iou90/react-native-autoheight-webview)
 
